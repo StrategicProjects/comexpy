@@ -2,7 +2,13 @@
 
 [![PyPI](https://img.shields.io/pypi/v/comexpy.svg)](https://pypi.org/project/comexpy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/comexpy.svg)](https://pypi.org/project/comexpy/)
+[![Downloads](https://img.shields.io/pepy/dt/comexpy?color=blue&label=downloads)](https://pepy.tech/project/comexpy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-mkdocs--material-526CFE?logo=materialformkdocs&logoColor=white)](https://strategicprojects.github.io/comexpy/)
+[![Publish](https://github.com/StrategicProjects/comexpy/actions/workflows/publish.yml/badge.svg)](https://github.com/StrategicProjects/comexpy/actions/workflows/publish.yml)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![pandas](https://img.shields.io/badge/powered%20by-pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![R port: comexr](https://img.shields.io/badge/R%20port-comexr-276DC3?logo=r&logoColor=white)](https://github.com/StrategicProjects/comexr)
 
 **Access the Brazilian Foreign Trade Statistics API (ComexStat) from Python.**
 
