@@ -1,4 +1,4 @@
-# comexpy
+# comexpy <img src="docs/assets/logo.svg" align="right" height="139" alt="comexpy logo" />
 
 [![PyPI](https://img.shields.io/pypi/v/comexpy.svg)](https://pypi.org/project/comexpy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/comexpy.svg)](https://pypi.org/project/comexpy/)

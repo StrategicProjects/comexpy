@@ -1,5 +1,7 @@
 # comexpy
 
+<img src="assets/logo.svg" align="right" height="180" alt="comexpy logo" />
+
 **Access the Brazilian Foreign Trade Statistics API (ComexStat) from Python.**
 
 `comexpy` is a [pandas](https://pandas.pydata.org/)-friendly interface to the

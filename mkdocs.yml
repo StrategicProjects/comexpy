@@ -8,6 +8,10 @@ copyright: MIT — comexpy authors
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
