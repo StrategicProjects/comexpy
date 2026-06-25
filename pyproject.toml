@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "comexpy"
+version = "0.1.0"
+description = "Access the Brazilian Foreign Trade Statistics API (ComexStat) from Python"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Andre Leite", email = "leite@castlab.org" },
+    { name = "Marcos Wasilew", email = "marcos.wasilew@gmail.com" },
+    { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
+    { name = "Carlos Amorin", email = "carlos.agaf@ufpe.br" },
+    { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
+]
+keywords = ["ComexStat", "MDIC", "Brazil", "foreign-trade", "exports", "imports", "open-data", "pandas"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25",
+    "pandas>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "responses>=0.23", "ruff>=0.1"]
+docs = [
+    "mkdocs-material>=9.5",
+    "mkdocstrings[python]>=0.24",
+]
+
+[project.urls]
+Homepage = "https://github.com/StrategicProjects/comexpy"
+Repository = "https://github.com/StrategicProjects/comexpy"
+Issues = "https://github.com/StrategicProjects/comexpy/issues"
+"R package (comexr)" = "https://github.com/StrategicProjects/comexr"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/comexpy"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
