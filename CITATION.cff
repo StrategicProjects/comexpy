@@ -5,6 +5,7 @@ title: "comexpy: a pandas-friendly Python client for the Brazilian Foreign Trade
 version: 0.1.1
 date-released: 2026-07-14
 license: MIT
+doi: 10.5281/zenodo.21365356
 repository-code: "https://github.com/StrategicProjects/comexpy"
 url: "https://strategicprojects.github.io/comexpy/"
 keywords:

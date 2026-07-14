@@ -9,6 +9,7 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![pandas](https://img.shields.io/badge/powered%20by-pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![R port: comexr](https://img.shields.io/badge/R%20port-comexr-276DC3?logo=r&logoColor=white)](https://github.com/StrategicProjects/comexr)
+[![DOI](https://zenodo.org/badge/1280391893.svg)](https://doi.org/10.5281/zenodo.21365356)
 
 **Access the Brazilian Foreign Trade Statistics API (ComexStat) from Python.**
 
