@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "comexpy: a pandas-friendly Python client for the Brazilian Foreign Trade Statistics API (ComexStat)"
+version: 0.1.1
+date-released: 2026-07-14
+license: MIT
+repository-code: "https://github.com/StrategicProjects/comexpy"
+url: "https://strategicprojects.github.io/comexpy/"
+keywords:
+  - ComexStat
+  - MDIC
+  - Brazil
+  - foreign-trade
+  - exports
+  - imports
+  - open-data
+  - pandas
+authors:
+  - family-names: Leite
+    given-names: "André"
+    email: leite@castlab.org
+    affiliation: "Universidade Federal de Pernambuco"
+  - family-names: Vasconcelos
+    given-names: Hugo
+    email: hugo.vasconcelos@ufpe.br
+    affiliation: "Universidade Federal de Pernambuco"
+  - family-names: Bezerra
+    given-names: Diogo
+    email: diogo.bezerra@ufpe.br
+    affiliation: "Universidade Federal de Pernambuco"
+  - family-names: Wasiliew
+    given-names: Marcos
+    email: marcos.wasilew@gmail.com
+  - family-names: Amorim
+    given-names: Carlos
+    email: carlos.agaf@ufpe.br
+    affiliation: "Universidade Federal de Pernambuco"

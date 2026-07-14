@@ -1,0 +1,40 @@
+{
+  "title": "comexpy: a pandas-friendly Python client for the Brazilian Foreign Trade Statistics API (ComexStat)",
+  "description": "<p>comexpy is a pandas-friendly Python client for the Brazilian Foreign Trade Statistics API (ComexStat) of the Ministry of Development, Industry, Trade and Services (MDIC). It provides programmatic access to detailed Brazilian export and import data &mdash; general trade statistics (1997&ndash;present), city-level data, and historical records (1989&ndash;1996) &mdash; plus auxiliary tables for product codes (NCM, NBM, HS), countries, economic blocs, and classifications (CGCE, SITC, ISIC). Every query returns a pandas DataFrame. It is the Python port of the R package comexr; the public function names mirror the R API so knowledge transfers directly between the two.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Leite, André",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Vasconcelos, Hugo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Bezerra, Diogo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Wasiliew, Marcos"
+    },
+    {
+      "name": "Amorim, Carlos",
+      "affiliation": "Universidade Federal de Pernambuco"
+    }
+  ],
+  "keywords": ["ComexStat", "MDIC", "Brazil", "foreign-trade", "exports", "imports", "open-data", "pandas"],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://pypi.org/project/comexpy/",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://github.com/StrategicProjects/comexr",
+      "resource_type": "software"
+    }
+  ]
+}

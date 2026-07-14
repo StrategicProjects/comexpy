@@ -53,7 +53,7 @@ from .tables_products import (
     comex_ncm_detail,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     # Query functions (POST)
