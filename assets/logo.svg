@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 232" width="200" height="232" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">comexpy</title>
+  <desc id="logoDesc">Hex logo for the comexpy Python package: a globe with export and import arrows over the ComexStat API wordmark.</desc>
+
+  <defs>
+    <!-- Premium dark gradient background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="50%" stop-color="#0f2847"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+
+    <!-- Subtle hex border gradient -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e88e5" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#42a5f5" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1e88e5" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Globe ring gradient -->
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="50%" stop-color="#e3f2fd" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#64b5f6"/>
+    </linearGradient>
+
+    <!-- Export arrow gradient (warm amber) -->
+    <linearGradient id="exportGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb74d" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff9800"/>
+    </linearGradient>
+
+    <!-- Import arrow gradient (emerald) -->
+    <linearGradient id="importGrad" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#66bb6a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#43a047"/>
+    </linearGradient>
+
+    <!-- Dot pattern for globe texture -->
+    <pattern id="dots" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="0.4" fill="#64b5f6" opacity="0.18"/>
+    </pattern>
+
+    <!-- Clip for globe interior -->
+    <clipPath id="globeClip">
+      <circle cx="100" cy="62" r="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- === HEX BACKGROUND === -->
+  <polygon points="100,2 196,60 196,172 100,230 4,172 4,60" fill="url(#bg)"/>
+
+  <!-- Hex border -->
+  <polygon points="100,2 196,60 196,172 100,230 4,172 4,60"
+           fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- Subtle inner line -->
+  <polygon points="100,8 190,63 190,169 100,224 10,169 10,63"
+           fill="none" stroke="#1e88e5" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- === GLOBE === -->
+  <g>
+    <!-- Outer ring -->
+    <circle cx="100" cy="62" r="21" fill="none" stroke="url(#ring)" stroke-width="2"/>
+
+    <!-- Globe fill texture -->
+    <circle cx="100" cy="62" r="20" fill="url(#dots)" opacity="0.5"/>
+
+    <!-- Meridians -->
+    <g clip-path="url(#globeClip)">
+      <ellipse cx="100" cy="62" rx="10" ry="20"
+               fill="none" stroke="#90caf9" stroke-width="1" opacity="0.5"/>
+      <ellipse cx="100" cy="62" rx="20" ry="20"
+               fill="none" stroke="#90caf9" stroke-width="0.6" opacity="0.3"/>
+      <ellipse cx="100" cy="62" rx="3" ry="20"
+               fill="none" stroke="#90caf9" stroke-width="0.8" opacity="0.35"/>
+    </g>
+
+    <!-- Parallels -->
+    <line x1="80" y1="55" x2="120" y2="55" stroke="#90caf9" stroke-width="0.6" opacity="0.3"/>
+    <line x1="78" y1="62" x2="122" y2="62" stroke="#90caf9" stroke-width="0.8" opacity="0.4"/>
+    <line x1="80" y1="69" x2="120" y2="69" stroke="#90caf9" stroke-width="0.6" opacity="0.3"/>
+
+    <!-- Globe highlight -->
+    <circle cx="92" cy="55" r="7" fill="#e3f2fd" opacity="0.07"/>
+  </g>
+
+  <!-- === EXPORT ARROW === -->
+  <g transform="translate(100,97)">
+    <line x1="-22" y1="0" x2="18" y2="0"
+          stroke="url(#exportGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polyline points="12,-7 22,0 12,7"
+              fill="none" stroke="#ff9800" stroke-width="3"
+              stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- === IMPORT ARROW === -->
+  <g transform="translate(100,113)">
+    <line x1="22" y1="0" x2="-18" y2="0"
+          stroke="url(#importGrad)" stroke-width="3" stroke-linecap="round"/>
+    <polyline points="-12,-7 -22,0 -12,7"
+              fill="none" stroke="#43a047" stroke-width="3"
+              stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Thin separator line -->
+  <line x1="50" y1="130" x2="150" y2="130" stroke="#1e88e5" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- === PACKAGE NAME === -->
+  <text x="100" y="153" text-anchor="middle"
+        font-family="'SF Mono','Fira Code','JetBrains Mono','Cascadia Code',monospace"
+        font-size="24" font-weight="700" letter-spacing="1.5">
+    <tspan fill="#e3f2fd">comex</tspan><tspan fill="#ffd43b">py</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="170" text-anchor="middle"
+        font-family="'Inter','Helvetica Neue','Segoe UI',sans-serif"
+        font-size="8.5" fill="#90caf9" opacity="0.7"
+        letter-spacing="3" font-weight="300">COMEXSTAT API</text>
+
+  <!-- === BRAZILIAN FLAG ACCENT BARS === -->
+  <line x1="62" y1="183" x2="82" y2="183" stroke="#43a047" stroke-width="2" stroke-linecap="round"/>
+  <line x1="86" y1="183" x2="114" y2="183" stroke="#fdd835" stroke-width="2" stroke-linecap="round"/>
+  <line x1="118" y1="183" x2="138" y2="183" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Corner accent dots -->
+  <circle cx="58" cy="183" r="1" fill="#43a047" opacity="0.5"/>
+  <circle cx="142" cy="183" r="1" fill="#1e88e5" opacity="0.5"/>
+</svg>
