@@ -15,6 +15,7 @@ authors = [
     { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
     { name = "Marcos Wasiliew", email = "marcos.wasiliew@gmail.com" },
     { name = "Carlos Amorim", email = "carlos.agaf@ufpe.br" },
+    { name = "Júlia Nascimento Barreto", email = "juliabarreto@gd.seplag.pe.gov.br" },
 ]
 keywords = ["ComexStat", "MDIC", "Brazil", "foreign-trade", "exports", "imports", "open-data", "pandas"]
 classifiers = [
